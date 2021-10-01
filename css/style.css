@@ -19,6 +19,21 @@ body{
 
 }
 
+.flexbox{
+	width: 80%;
+	display: flex;
+	margin: auto;
+	/* background-color: #25E6AA; */ 
+	max-height: 70%;
+}
+
+.side-image{
+	/* background-color: red; */
+	max-height:100%; 
+	max-width:100%;
+	float: right;
+}
+
 .skills{
 	width: 80%;
 	margin: auto;
@@ -52,7 +67,7 @@ body{
 	font-family: 'Inter', sans-serif;;
 }
 #main{
-	width: 70%;
+	width: 200%;
 }
 #sidebar{
 	float: right;
@@ -94,22 +109,6 @@ body{
 	height: 70%;
 
 }
-.block3{
-	float: left;
-	width: 33.3%;
-	border: 1px solid #ccc;
-	padding: 10px;
-	box-sizing: border-box;
-}
-.block3 p{
-	text-align: centre;
-	font-weight: Bold;
 
-}
-.block3 img{
-	width: 70%;
-	height: 70%;
-
-}
 
 	
