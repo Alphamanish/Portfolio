@@ -30,6 +30,10 @@ body{
 	margin: auto;
 	/* background-color: #25E6AA  25E6AA; */ 
 	max-height: 70%;
+	padding-bottom: 10px;
+}
+#main{
+	margin-bottom: 10px;
 }
 
 .side-image{
@@ -100,7 +104,6 @@ body{
 .block1 h1{
 	text-align: centre;
 	font-weight: Bold;
-	margin-left: 150px;
 
 }
 .block1 img{
