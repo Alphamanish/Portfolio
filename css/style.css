@@ -89,8 +89,8 @@ body{
 	border: 1px solid #ccc;
 	padding: 10px;
 	box-sizing: border-box;
-    background-color: #ffd9d7
-;
+    background-color: #ffd9d7;
+    height: 500px;
 }
 .block1 p{
 	text-align: centre;
@@ -104,8 +104,8 @@ body{
 
 }
 .block1 img{
-	width: 70%;
-	height: 70%;
+	width: 60%;
+	height: 300px;
 }
 .block2{
 	float: centre;
