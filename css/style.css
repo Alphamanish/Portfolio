@@ -32,14 +32,11 @@ body{
 	max-height: 70%;
 	padding-bottom: 10px;
 }
-#main{
-	margin-bottom: 10px;
-}
 
 .side-image{
 	/* background-color: red; */
 	max-height:100%; 
-	max-width:100%;
+	max-width:400px;
 	float: right;
 }
 
