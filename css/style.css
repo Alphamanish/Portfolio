@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* About me font*/ @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
 body{
 	font-family: 'Inter', sans-serif;
 	font-size: 13px;
@@ -19,11 +20,15 @@ body{
 
 }
 
+#showcase{
+	color: #EB3454;
+}
+
 .flexbox{
 	width: 80%;
 	display: flex;
 	margin: auto;
-	/* background-color: #25E6AA; */ 
+	/* background-color: #25E6AA  25E6AA; */ 
 	max-height: 70%;
 }
 
@@ -38,13 +43,15 @@ body{
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
+	letter-spacing: 1em;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
 
 #main-header{
 	font-family: 'Cherish', cursive;
 	font-size: 15px;
 	text-align: center;
-	background-color: #25E6AA;
+	background-color: #080C14;
 	color: #fff;
 }
 #navbar{
@@ -81,11 +88,19 @@ body{
 	border: 1px solid #ccc;
 	padding: 10px;
 	box-sizing: border-box;
-
+    background-color: #ffd9d7
+;
 }
 .block1 p{
 	text-align: centre;
 	font-weight: Bold;
+	color: #002140;
+
+}
+.block1 h1{
+	text-align: centre;
+	font-weight: Bold;
+	margin-left: 150px;
 
 }
 .block1 img{
@@ -93,22 +108,26 @@ body{
 	height: 70%;
 }
 .block2{
-	float: left;
-	width: 33.3%;
+	float: centre;
+	width: 100%;
 	border: 1px solid #ccc;
 	padding: 10px;
 	box-sizing: border-box;
+	background-color: #ffd9d7
 }
 .block2 p{
 	text-align: centre;
 	font-weight: Bold;
 
-}
-.block2 img{
-	width: 70%;
-	height: 70%;
 
 }
+.block2 img{
+	margin-left: 540px;
+	width: 25%;
+	height: 25%;
+
+}
+
 
 
 	
