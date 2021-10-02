@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 /* About me font*/ @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+/* Manish font*/
 body{
 	font-family: 'Inter', sans-serif;
 	font-size: 13px;
@@ -8,7 +9,7 @@ body{
 	margin: 0;
 }
 .back{
-	background-image: url('../images/background_image.png');
+    background-color: #ffd9d7;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 300px;
